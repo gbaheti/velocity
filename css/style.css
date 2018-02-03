@@ -157,6 +157,7 @@ input[type=text], .input-text {
     padding-left: 18px;
     border-radius: 5px;
     background-clip: padding-box;
+    box-shadow: none !important;
     font-family: Roboto Mono, sans-serif;
 }
 
