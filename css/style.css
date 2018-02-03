@@ -18,17 +18,15 @@ html.index {
     bottom: 0
 }
 
-.icon-icon-quora:before {
-    content: "\e904"
-}
-
-.icon-icon-twitter:before {
-    content: "\e905"
-}
-
 body {
     background: #FFFFFF;
     background-size: 100%;
+}
+
+input[type=text] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .light-gradient {
@@ -146,7 +144,7 @@ form.email-form {
     margin: 40px 0 0px;
 }
 
-.input-text {
+input[type=text], .input-text {
     background: rgba(0, 0, 0, 0.01);
     border: 1px solid rgba(0, 0, 0, 0.1);
     outline: none;
@@ -161,11 +159,11 @@ form.email-form {
     font-family: Roboto Mono, sans-serif;
 }
 
-.input-text:hover {
+input[type=text], .input-text:hover {
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.input-text:focus {
+input[type=text], .input-text:focus {
     background: rgba(0, 0, 0, 0.03);
 }
 
