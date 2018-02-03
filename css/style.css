@@ -99,7 +99,7 @@ a.link-red:hover {
 
 article p {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 800;
     margin: 0px auto 25px;
     line-height: 28px;
     letter-spacing: -0.2px;
@@ -204,12 +204,9 @@ button.submit-btn:active {
 }
 
 button.submit-btn.success {
-    color: white;
+    color: black;
     font-size: 14px;
-    background: #39b31b;
-    background: -webkit-linear-gradient(45deg, #39b31b 0, #58ea14 100%);
-    background: linear-gradient(45deg, #39b31b 0, #58ea14 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#39b31b', endColorstr='#58ea14', GradientType=1)
+    background: #83FF52;
 }
 
 .mce_inline_error {
@@ -353,8 +350,7 @@ button.submit-btn img {
     }
     article {
         margin-top: 35px;
-        padding-top: 30px;
-        padding: 20px;
+        padding: 30px 20px;
         margin-bottom: 60px;
     }
     article p {
