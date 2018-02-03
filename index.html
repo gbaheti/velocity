@@ -74,6 +74,9 @@
     $(document).ready(function() {
         var form = $('#mc-embedded-subscribe-form');
         var button = $('.submit-btn');
+        $(button).click(function(){
+            button.addClass("loading");
+        });
         $('#mc-embedded-subscribe-form').ajaxChimp({
             url: 'http://readef.us11.list-manage.com/subscribe/post?u=5b486ff30b72a43d5b20eeb42&amp;id=bdec47aa0b',
             callback: function(data) {

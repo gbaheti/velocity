@@ -221,7 +221,7 @@ button.submit-btn.loading img {
     visibility: visible;
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    display: inline-block
+    display: inline-block;
 }
 
 button.submit-btn span {
