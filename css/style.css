@@ -84,13 +84,13 @@ a.link-red:hover {
     float: left;
     max-width: 360px;
     width: 35%;
-    top: 50%;
+    top: 35%;
     position: absolute;
     margin-top: -100px;
 }
 
 .title h1 {
-    font-size: 48px;
+    font-size: 110px;
     color: #6C35FF;
     font-family: Source Serif Pro, serif;
 }
@@ -111,7 +111,7 @@ article p {
     height: 46px;
     position: absolute;
     right: 0;
-    bottom: 30%;
+    bottom: 34%;
 }
 
 .features {
@@ -134,7 +134,7 @@ div.logo {
     max-width: 141px;
     height: 43px;
     float: right;
-    top: 24px;
+    top: 50px;
     right: -12px;
     position: relative;
     opacity: 0.75;
@@ -144,7 +144,8 @@ form.email-form {
     margin: 40px 0 0px;
 }
 
-input[type=text], .input-text {
+input[type=text],
+.input-text {
     background: rgba(0, 0, 0, 0.01);
     border: 1px solid rgba(0, 0, 0, 0.1);
     outline: none;
@@ -161,11 +162,13 @@ input[type=text], .input-text {
     font-family: Roboto Mono, sans-serif;
 }
 
-input[type=text], .input-text:hover {
+input[type=text],
+.input-text:hover {
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-input[type=text], .input-text:focus {
+input[type=text],
+.input-text:focus {
     background: rgba(0, 0, 0, 0.03);
 }
 
@@ -324,6 +327,9 @@ button.submit-btn img {
         margin-top: 40px;
         position: relative;
         float: none;
+    }
+    .title h1 {
+        font-size: 60px;
     }
     article {
         float: right;
