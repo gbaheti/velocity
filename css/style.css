@@ -62,7 +62,7 @@ article {
     font-family: Roboto Mono, sans-serif;
     background: rgba(255, 255, 255, 1);
     position: relative;
-    margin-top: 15%;
+    margin-top: 10%;
     top: -20px;
     max-width: 650px;
     padding: 40px;
@@ -90,7 +90,7 @@ a.link-red:hover {
 }
 
 .title h1 {
-    font-size: 110px;
+    font-size: 70px;
     color: #6C35FF;
     font-family: Source Serif Pro, serif;
 }
@@ -189,6 +189,7 @@ button.submit-btn {
     cursor: pointer;
     transition: all .2s cubic-bezier(.005, .735, .63, .995);
     background: #FBEA38;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.05);
 }
 
 button.submit-btn:hover {
